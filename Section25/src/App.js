@@ -6,6 +6,9 @@ import ProductsPage from './containers/Products';
 import FavoritesPage from './containers/Favorites';
 
 const App = props => {
+  const [userName, setUserName] = useState('');
+
+setUserName++;
   return (
     <React.Fragment>
       <Navigation />
